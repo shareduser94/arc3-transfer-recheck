@@ -1,0 +1,34 @@
+
+===== COMBINED AGENT =====  level-1 pairing mismatches EFFTHIN vs RESET: 0; game-seeds with level 1: 60
+mode       L2 clr fewer  more  share      p  median    geo  lf52
+reset          58     0     0    nan  1.000   1.000  1.000     9
+transfer       54    34    19   0.64  0.027   0.996  0.994     5
+selective      57    31    23   0.57  0.170   0.999  1.139     9
+surprise       56    31    24   0.56  0.209   0.999  0.980     8
+voi            54    30    22   0.58  0.166   0.999  1.027     9
+effthin        52    27    23   0.54  0.336   1.000  1.138     5
+lp85 level-2 actions, EFFTHIN minus TRANSFER: median 0.0  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+per game level 2 cleared (of 10) / median level-2 actions:
+  cd82:  reset 9/10 med 2839  trans 9/10 med 1596  selec 8/10 med 6701  effth 7/10 med 6769
+  dc22:  reset 10/10 med 7786  trans 10/10 med 6555  selec 10/10 med 7704  effth 10/10 med 7201
+  lf52:  reset 9/10 med 5170  trans 5/10 med 7413  selec 9/10 med 5614  effth 5/10 med 7238
+  lp85:  reset 10/10 med 1147  trans 10/10 med 1171  selec 10/10 med 1174  effth 10/10 med 1171
+  tu93:  reset 10/10 med 38  trans 10/10 med 34  selec 10/10 med 34  effth 10/10 med 34
+  vc33:  reset 10/10 med 165  trans 10/10 med 220  selec 10/10 med 161  effth 10/10 med 206
+
+===== OUR ORIGINAL AGENT =====  level-1 pairing mismatches EFFTHIN vs RESET: 0; game-seeds with level 1: 60
+mode       L2 clr fewer  more  share      p  median    geo  lf52
+reset          58     0     0    nan  1.000   1.000  1.000     9
+transfer       52    36    15   0.71  0.002   0.952  0.885     3
+selective      55    29    24   0.55  0.292   0.991  0.890     9
+surprise       57    29    27   0.52  0.447   0.996  0.934    10
+voi            57    29    26   0.53  0.394   0.990  0.927     9
+effthin        59    39    18   0.68  0.004   0.940  0.901     9
+lp85 level-2 actions, EFFTHIN minus TRANSFER: median 0.0  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+per game level 2 cleared (of 10) / median level-2 actions:
+  cd82:  reset 9/10 med 5047  trans 9/10 med 5432  selec 6/10 med 4839  effth 10/10 med 5579
+  dc22:  reset 10/10 med 8071  trans 10/10 med 6479  selec 10/10 med 7939  effth 10/10 med 7724
+  lf52:  reset 9/10 med 6239  trans 3/10 med 5492  selec 9/10 med 5714  effth 9/10 med 5823
+  lp85:  reset 10/10 med 653  trans 10/10 med 631  selec 10/10 med 669  effth 10/10 med 631
+  tu93:  reset 10/10 med 45  trans 10/10 med 37  selec 10/10 med 36  effth 10/10 med 36
+  vc33:  reset 10/10 med 241  trans 10/10 med 283  selec 10/10 med 279  effth 10/10 med 268

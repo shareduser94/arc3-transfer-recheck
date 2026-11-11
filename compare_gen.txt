@@ -1,0 +1,13 @@
+games 200; level-1 pairing mismatches 0; level 2 not cleared: {'reset': 0, 'transfer': 0, 'selective': 0, 'voi': 0}
+
+condition       dec | RESET med |  transfer more/fewer  ratio | selective more/fewer  ratio |       voi more/fewer  ratio
+stable            0 |         7 |  transfer  0/25   0.38 | selective  7/10   1.00 |       voi  8/11   1.00
+stable            6 |        34 |  transfer 21/ 4   1.43 | selective  1/24   0.21 |       voi  1/24   0.21
+promoted_half     0 |         5 |  transfer  0/14   0.80 | selective 19/ 2   1.20 |       voi 20/ 2   1.20
+promoted_half     6 |        33 |  transfer 23/ 2   1.55 | selective  0/24   0.18 |       voi  0/24   0.18
+promoted_inert    0 |         6 |  transfer 25/ 0   3.50 | selective  5/16   0.80 |       voi  5/17   0.78
+promoted_inert    6 |        34 |  transfer 25/ 0   2.00 | selective  0/25   0.19 |       voi  0/25   0.19
+new               0 |         7 |  transfer  3/22   0.57 | selective 21/ 1   1.29 |       voi 21/ 1   1.29
+new               6 |        35 |  transfer  3/22   0.79 | selective 21/ 2   1.08 |       voi 23/ 0   1.12
+
+(more/fewer = games where the mode needed more / fewer level-2 actions than RESET; ratio = median mode/RESET)

@@ -1,0 +1,33 @@
+=== overall (per seed) ===
+explorer       games [25, 25, 25] score [0.066, 0.02, 0.2] mean 0.095 lvl>=1 [10, 10, 11] lvl>=2 [3, 3, 2] levels [13, 13, 13]
+reset          games [25, 25, 25] score [0.205, 0.245, 0.364] mean 0.271 lvl>=1 [16, 15, 15] lvl>=2 [6, 6, 6] levels [25, 23, 22]
+transfer       games [25, 25, 25] score [0.172, 0.288, 0.365] mean 0.275 lvl>=1 [16, 15, 15] lvl>=2 [5, 6, 5] levels [22, 24, 21]
+rudakov        games [25, 25, 25] score [0.233, 0.533, 0.219] mean 0.328 lvl>=1 [10, 10, 10] lvl>=2 [4, 4, 5] levels [14, 14, 18] errors/game median [9, 26, 31]
+rudakov as-is  games [25] score [0.226] mean 0.226 lvl>=1 [6] lvl>=2 [1] levels [7] errors/game median [9088]
+
+=== per game: levels per seed | level-1 actions (median over seeds that cleared it) ===
+ar25 | reset lv [1, 0, 0] a1 7966 | transfer lv [1, 0, 0] a1 7966 | rudakov lv [2, 1, 1] a1 3037 | rudakov  lv [0] a1 -
+bp35 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [1, 1, 1] a1 953 | rudakov  lv [1] a1 273
+cd82 | reset lv [2, 2, 2] a1 645 | transfer lv [2, 2, 2] a1 645 | rudakov lv [2, 2, 2] a1 687 | rudakov  lv [0] a1 -
+cn04 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+dc22 | reset lv [2, 2, 2] a1 1121 | transfer lv [2, 2, 2] a1 1121 | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+ft09 | reset lv [1, 1, 1] a1 689 | transfer lv [1, 1, 1] a1 689 | rudakov lv [1, 2, 2] a1 1349 | rudakov  lv [1] a1 348
+g50t | reset lv [1, 1, 1] a1 907 | transfer lv [1, 1, 1] a1 907 | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+ka59 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [1, 0, 0] a1 1944 | rudakov  lv [0] a1 -
+lf52 | reset lv [2, 2, 2] a1 126 | transfer lv [1, 2, 1] a1 126 | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+lp85 | reset lv [3, 3, 3] a1 28 | transfer lv [3, 3, 3] a1 28 | rudakov lv [1, 1, 5] a1 184 | rudakov  lv [1] a1 211
+ls20 | reset lv [1, 1, 1] a1 417 | transfer lv [1, 1, 1] a1 417 | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+m0r0 | reset lv [1, 1, 1] a1 1399 | transfer lv [1, 1, 1] a1 1399 | rudakov lv [1, 1, 1] a1 2185 | rudakov  lv [0] a1 -
+r11l | reset lv [1, 1, 1] a1 73 | transfer lv [1, 1, 1] a1 73 | rudakov lv [1, 1, 1] a1 20 | rudakov  lv [1] a1 25
+re86 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+s5i5 | reset lv [1, 1, 1] a1 926 | transfer lv [1, 1, 1] a1 926 | rudakov lv [0, 1, 0] a1 2443 | rudakov  lv [0] a1 -
+sb26 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+sc25 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+sk48 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+sp80 | reset lv [1, 1, 1] a1 948 | transfer lv [1, 1, 1] a1 948 | rudakov lv [2, 2, 1] a1 124 | rudakov  lv [2] a1 124
+su15 | reset lv [1, 1, 1] a1 374 | transfer lv [1, 1, 1] a1 374 | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+tn36 | reset lv [1, 1, 1] a1 44 | transfer lv [1, 1, 1] a1 44 | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+tr87 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -
+tu93 | reset lv [4, 3, 2] a1 284 | transfer lv [2, 3, 2] a1 284 | rudakov lv [0, 0, 2] a1 6950 | rudakov  lv [0] a1 -
+vc33 | reset lv [2, 2, 2] a1 29 | transfer lv [2, 3, 2] a1 29 | rudakov lv [2, 2, 2] a1 31 | rudakov  lv [1] a1 17
+wa30 | reset lv [0, 0, 0] a1 - | transfer lv [0, 0, 0] a1 - | rudakov lv [0, 0, 0] a1 - | rudakov  lv [0] a1 -

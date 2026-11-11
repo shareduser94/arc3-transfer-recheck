@@ -1,0 +1,43 @@
+=== overall ===
+reset         score [0.205, 0.245, 0.364] mean 0.271  lvl>=1 [16, 15, 15]  lvl>=2 [6, 6, 6]  levels [25, 23, 22]
+transfer      score [0.172, 0.288, 0.365] mean 0.275  lvl>=1 [16, 15, 15]  lvl>=2 [5, 6, 5]  levels [22, 24, 21]
+rudakov       score [0.233, 0.533, 0.219] mean 0.328  lvl>=1 [10, 10, 10]  lvl>=2 [4, 4, 5]  levels [14, 14, 18]
+hyb_reset     score [0.718, 0.427, 0.646] mean 0.597  lvl>=1 [17, 17, 17]  lvl>=2 [6, 6, 5]  levels [26, 26, 25]
+hyb_transfer  score [0.57, 0.427, 0.644] mean 0.547  lvl>=1 [17, 17, 17]  lvl>=2 [5, 6, 5]  levels [26, 26, 24]
+
+E3: level 1 cleared on our-only games (per seed):
+  hyb_reset: [6, 7, 7] of 7
+  hyb_transfer: [6, 7, 7] of 7
+
+E5: sp80 level-1 actions: {'reset': [[986], [948], [942]], 'rudakov': [[124], [24], [184]], 'hyb_reset': [[743], [715], [713]], 'hyb_transfer': [[743], [715], [713]]}
+
+=== per game: levels per seed | median level-1 actions ===
+ar25 | reset [1, 0, 0] a1 7966 | rudakov [2, 1, 1] a1 3037 | hyb_reset [1, 1, 1] a1 1669 | hyb_trans [1, 1, 1] a1 1669
+bp35 | reset [0, 0, 0] a1 - | rudakov [1, 1, 1] a1 953 | hyb_reset [1, 1, 1] a1 115 | hyb_trans [1, 1, 1] a1 115
+cd82 | reset [2, 2, 2] a1 645 | rudakov [2, 2, 2] a1 687 | hyb_reset [2, 2, 1] a1 1160 | hyb_trans [2, 2, 2] a1 1160
+cn04 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [1, 0, 0] a1 33 | hyb_trans [1, 0, 0] a1 33
+dc22 | reset [2, 2, 2] a1 1121 | rudakov [0, 0, 0] a1 - | hyb_reset [2, 2, 2] a1 939 | hyb_trans [2, 2, 2] a1 939
+ft09 | reset [1, 1, 1] a1 689 | rudakov [1, 2, 2] a1 1349 | hyb_reset [1, 1, 1] a1 2458 | hyb_trans [1, 1, 1] a1 2458
+g50t | reset [1, 1, 1] a1 907 | rudakov [0, 0, 0] a1 - | hyb_reset [0, 1, 1] a1 1298 | hyb_trans [0, 1, 1] a1 1298
+ka59 | reset [0, 0, 0] a1 - | rudakov [1, 0, 0] a1 1944 | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+lf52 | reset [2, 2, 2] a1 126 | rudakov [0, 0, 0] a1 - | hyb_reset [2, 2, 2] a1 39 | hyb_trans [1, 2, 1] a1 39
+lp85 | reset [3, 3, 3] a1 28 | rudakov [1, 1, 5] a1 184 | hyb_reset [5, 5, 3] a1 52 | hyb_trans [5, 5, 3] a1 52
+ls20 | reset [1, 1, 1] a1 417 | rudakov [0, 0, 0] a1 - | hyb_reset [1, 1, 1] a1 417 | hyb_trans [1, 1, 1] a1 417
+m0r0 | reset [1, 1, 1] a1 1399 | rudakov [1, 1, 1] a1 2185 | hyb_reset [1, 1, 1] a1 51 | hyb_trans [1, 1, 1] a1 51
+r11l | reset [1, 1, 1] a1 73 | rudakov [1, 1, 1] a1 20 | hyb_reset [1, 1, 1] a1 23 | hyb_trans [1, 1, 1] a1 23
+re86 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+s5i5 | reset [1, 1, 1] a1 926 | rudakov [0, 1, 0] a1 2443 | hyb_reset [1, 1, 1] a1 678 | hyb_trans [1, 1, 1] a1 678
+sb26 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+sc25 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+sk48 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+sp80 | reset [1, 1, 1] a1 948 | rudakov [2, 2, 1] a1 124 | hyb_reset [1, 1, 1] a1 715 | hyb_trans [1, 1, 1] a1 715
+su15 | reset [1, 1, 1] a1 374 | rudakov [0, 0, 0] a1 - | hyb_reset [1, 1, 1] a1 415 | hyb_trans [1, 1, 1] a1 415
+tn36 | reset [1, 1, 1] a1 44 | rudakov [0, 0, 0] a1 - | hyb_reset [1, 1, 1] a1 22 | hyb_trans [1, 1, 1] a1 22
+tr87 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+tu93 | reset [4, 3, 2] a1 284 | rudakov [0, 0, 2] a1 6950 | hyb_reset [2, 2, 3] a1 242 | hyb_trans [2, 2, 3] a1 242
+vc33 | reset [2, 2, 2] a1 29 | rudakov [2, 2, 2] a1 31 | hyb_reset [2, 2, 3] a1 31 | hyb_trans [3, 2, 2] a1 31
+wa30 | reset [0, 0, 0] a1 - | rudakov [0, 0, 0] a1 - | hyb_reset [0, 0, 0] a1 - | hyb_trans [0, 0, 0] a1 -
+
+=== transfer vs reset inside the combined agent (level 2, paired) ===
+pairs with level 1: 51, level-1 mismatches 0; both cleared level 2: 15, transfer fewer on 9
+level 2 cleared: reset 17, transfer 16

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+environment_files/
+.env
+*.err
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg

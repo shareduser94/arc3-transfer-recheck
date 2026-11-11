@@ -1,0 +1,14 @@
+seeds 10-19; level-1 pairing mismatches 0; game-seeds with level 1: 60
+mode       L2 clr fewer  more  share      p  median    geo  lf52
+reset          56     0     0    nan  1.000   1.000  1.000     9
+transfer       55    38    14   0.73  0.001   0.904  0.849     5
+selective      53    25    25   0.50  0.556   0.993  0.914     7
+effthin        57    32    22   0.59  0.110   0.981  0.919    10
+lp85 level-2 actions, EFFTHIN minus TRANSFER: median 0.0 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+per game level 2 cleared (of 10) / median level-2 actions:
+  cd82:  reset 8/10 med 4476  trans 10/10 med 5168  selec 6/10 med 3931  effth 7/10 med 7157
+  dc22:  reset 9/10 med 7287  trans 10/10 med 6351  selec 10/10 med 8016  effth 10/10 med 7119
+  lf52:  reset 9/10 med 6217  trans 5/10 med 5591  selec 7/10 med 5615  effth 10/10 med 5845
+  lp85:  reset 10/10 med 668  trans 10/10 med 642  selec 10/10 med 692  effth 10/10 med 642
+  tu93:  reset 10/10 med 43  trans 10/10 med 32  selec 10/10 med 34  effth 10/10 med 34
+  vc33:  reset 10/10 med 299  trans 10/10 med 254  selec 10/10 med 236  effth 10/10 med 304

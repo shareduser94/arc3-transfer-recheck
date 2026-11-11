@@ -1,0 +1,55 @@
+=== overall ===
+explorer  mean 0.0950 per seed [0.0658, 0.0195, 0.1997] >=1 lvl [10, 10, 11] >=2 [3, 3, 2] total levels [13, 13, 13]
+reset     mean 0.2714 per seed [0.2049, 0.2451, 0.3642] >=1 lvl [16, 15, 15] >=2 [6, 6, 6] total levels [25, 23, 22]
+transfer  mean 0.2747 per seed [0.1718, 0.2877, 0.3648] >=1 lvl [16, 15, 15] >=2 [5, 6, 5] total levels [22, 24, 21]
+surprise  mean 0.3004 per seed [0.1708, 0.2605, 0.4698] >=1 lvl [16, 15, 15] >=2 [6, 6, 6] total levels [24, 22, 22]
+
+level-1 pairing mismatches surprise vs reset (must be 0): 0
+game-seeds with level 1 cleared: 46
+
+=== B1: lf52 level 2 (actions, None = not cleared) ===
+  s0: reset 6425 transfer None surprise 9593
+  s1: reset 6087 transfer 8058 surprise 6257
+  s2: reset 5846 transfer None surprise 6562
+
+=== B2 ===
+  level 2 cleared by reset: 18
+  level 2 cleared by transfer: 16
+  level 2 cleared by surprise: 18
+  surprise vs reset: both cleared 18, surprise fewer 9, more 9, equal 0, median ratio 1.001, geo-mean 0.959
+  surprise vs transfer: both cleared 16, surprise fewer 6, more 10, equal 0, median ratio 1.035, geo-mean 1.156
+  per pair (level-2 actions R / T / S):
+    cd82 s0: [5513, 5432, 4054]  surprise events per level [0, 0, 9] switches 0
+    dc22 s0: [6891, 6247, 6880]  surprise events per level [0, 6, 4] switches 0
+    lf52 s0: [6425, None, 9593]  surprise events per level [0, 3, 7] switches 0
+    lp85 s0: [2365, 2351, 2375]  surprise events per level [0, 0, 0, 1] switches 0
+    tu93 s0: [42, 37, 38]  surprise events per level [0, 0, 3] switches 1
+    vc33 s0: [222, 281, 225]  surprise events per level [0, 0, 0, 0] switches 0
+    cd82 s1: [1878, 3649, 3231]  surprise events per level [0, 1, 8] switches 0
+    dc22 s1: [8103, 5983, 7074]  surprise events per level [0, 6, 4] switches 0
+    lf52 s1: [6087, 8058, 6257]  surprise events per level [0, 3, 8] switches 0
+    lp85 s1: [123, 109, 125]  surprise events per level [0, 0, 0, 0] switches 0
+    tu93 s1: [130, 32, 43]  surprise events per level [0, 3, 0] switches 1
+    vc33 s1: [241, 276, 233]  surprise events per level [0, 0, 0] switches 0
+    cd82 s2: [6050, 559, 6016]  surprise events per level [0, 3, 5] switches 0
+    dc22 s2: [8243, 6495, 8148]  surprise events per level [0, 6, 4] switches 0
+    lf52 s2: [5846, None, 6562]  surprise events per level [0, 3, 11] switches 0
+    lp85 s2: [561, 547, 571]  surprise events per level [0, 0, 0, 0] switches 0
+    tu93 s2: [40, 37, 18]  surprise events per level [0, 0, 3] switches 1
+    vc33 s2: [199, 179, 368]  surprise events per level [0, 0, 0] switches 0
+
+=== B3: surprise events on level 2 ===
+  median over 46 game-seeds reaching level 2: 1.0
+  hurt case lf52 s0: 3  ABOVE median
+  hurt case cd82 s1: 1  not above
+  hurt case lf52 s1: 3  ABOVE median
+  hurt case lf52 s2: 3  ABOVE median
+  all: [('dc22', 0, 6), ('dc22', 1, 6), ('dc22', 2, 6), ('sp80', 0, 4), ('sp80', 1, 4), ('g50t', 0, 3), ('lf52', 0, 3), ('ls20', 0, 3), ('s5i5', 0, 3), ('g50t', 1, 3), ('lf52', 1, 3), ('ls20', 1, 3), ('tu93', 1, 3), ('cd82', 2, 3), ('g50t', 2, 3), ('lf52', 2, 3), ('ls20', 2, 3), ('s5i5', 2, 3), ('sp80', 2, 3), ('ar25', 0, 2), ('m0r0', 1, 2), ('ft09', 0, 1), ('tn36', 0, 1), ('cd82', 1, 1), ('ft09', 1, 1), ('r11l', 1, 1), ('s5i5', 1, 1), ('ft09', 2, 1), ('cd82', 0, 0), ('lp85', 0, 0), ('m0r0', 0, 0), ('r11l', 0, 0), ('su15', 0, 0), ('tu93', 0, 0), ('vc33', 0, 0), ('lp85', 1, 0), ('su15', 1, 0), ('tn36', 1, 0), ('vc33', 1, 0), ('lp85', 2, 0), ('m0r0', 2, 0), ('r11l', 2, 0), ('su15', 2, 0), ('tn36', 2, 0), ('tu93', 2, 0), ('vc33', 2, 0)]
+
+=== B4 ===
+  surprise 0.3004 transfer 0.2747 diff +0.0256
+
+=== B5: lp85 level-2 saving vs reset ===
+  s0: transfer saves 14, surprise saves -10
+  s1: transfer saves 14, surprise saves -2
+  s2: transfer saves 14, surprise saves -10

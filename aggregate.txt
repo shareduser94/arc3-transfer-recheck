@@ -1,0 +1,29 @@
+explorer  runs=3 games/run=[25, 25, 25] mean score 0.0950 (per seed [0.0658, 0.0195, 0.1997]) games>=1 level [10, 10, 11]  games>=2 levels [3, 3, 2]
+random    runs=3 games/run=[25, 25, 25] mean score 0.1031 (per seed [0.1927, 0.0045, 0.1121]) games>=1 level [7, 6, 6]  games>=2 levels [0, 0, 1]
+
+per game (levels per seed | mean score | explorer states at last level / actions there):
+ar25-0c556536   | expl lv [0, 0, 0] sc 0.000 st/act [0.26, 0.28, 0.27] fb [0, 0, 0] | rand lv [0, 1, 0] sc 0.000
+bp35-0a0ad940   | expl lv [0, 0, 0] sc 0.000 st/act [0.1, 0.1, 0.1] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+cd82-fb555c5d   | expl lv [2, 2, 1] sc 0.042 st/act [0.72, 0.71, 0.58] fb [0, 0, 0] | rand lv [1, 0, 2] sc 0.002
+cn04-2fe56bfb   | expl lv [0, 0, 0] sc 0.000 st/act [0.75, 0.75, 0.74] fb [0, 0, 0] | rand lv [1, 0, 0] sc 0.000
+dc22-fdcac232   | expl lv [0, 0, 0] sc 0.000 st/act [0.24, 0.24, 0.22] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+ft09-0d8bbf25   | expl lv [1, 1, 1] sc 0.070 st/act [0.42, 0.42, 0.43] fb [0, 0, 0] | rand lv [1, 1, 1] sc 0.004
+g50t-5849a774   | expl lv [0, 0, 0] sc 0.000 st/act [0.26, 0.26, 0.26] fb [57, 46, 46] | rand lv [0, 0, 0] sc 0.000
+ka59-38d34dbb   | expl lv [0, 0, 0] sc 0.000 st/act [0.54, 0.53, 0.55] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+lf52-271a04aa   | expl lv [1, 1, 1] sc 0.001 st/act [0.05, 0.05, 0.14] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+lp85-305b61c3   | expl lv [1, 1, 1] sc 0.003 st/act [0.09, 0.09, 0.09] fb [0, 0, 0] | rand lv [1, 1, 1] sc 0.000
+ls20-9607627b   | expl lv [0, 0, 0] sc 0.000 st/act [0.4, 0.42, 0.4] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+m0r0-492f87ba   | expl lv [0, 0, 0] sc 0.000 st/act [0.33, 0.31, 0.33] fb [0, 0, 1] | rand lv [1, 1, 1] sc 0.001
+r11l-495a7899   | expl lv [1, 1, 1] sc 1.764 st/act [0.83, 0.85, 0.84] fb [0, 0, 0] | rand lv [1, 1, 1] sc 1.594
+re86-8af5384d   | expl lv [0, 0, 0] sc 0.000 st/act [0.95, 0.95, 0.95] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+s5i5-18d95033   | expl lv [0, 0, 1] sc 0.000 st/act [0.22, 0.23, 0.63] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+sb26-7fbdac44   | expl lv [0, 0, 0] sc 0.000 st/act [0.27, 0.26, 0.27] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+sc25-635fd71a   | expl lv [0, 0, 0] sc 0.000 st/act [0.48, 0.48, 0.48] fb [117, 100, 103] | rand lv [0, 0, 0] sc 0.000
+sk48-d8078629   | expl lv [0, 0, 0] sc 0.000 st/act [0.07, 0.07, 0.07] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+sp80-589a99af   | expl lv [1, 1, 1] sc 0.024 st/act [0.75, 0.76, 0.76] fb [0, 0, 0] | rand lv [1, 1, 1] sc 0.976
+su15-1944f8ab   | expl lv [1, 1, 1] sc 0.000 st/act [0.42, 0.42, 0.42] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+tn36-ef4dde99   | expl lv [1, 1, 1] sc 0.382 st/act [0.93, 0.94, 0.93] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+tr87-cd924810   | expl lv [0, 0, 0] sc 0.000 st/act [0.96, 0.96, 0.96] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+tu93-0768757b   | expl lv [2, 2, 2] sc 0.003 st/act [0.34, 0.28, 0.68] fb [1, 0, 0] | rand lv [0, 0, 0] sc 0.000
+vc33-5430563c   | expl lv [2, 2, 2] sc 0.085 st/act [0.55, 0.54, 0.53] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000
+wa30-ee6fef47   | expl lv [0, 0, 0] sc 0.000 st/act [0.77, 0.78, 0.79] fb [0, 0, 0] | rand lv [0, 0, 0] sc 0.000

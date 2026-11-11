@@ -1,0 +1,32 @@
+regression vs earlier runs (must be 0): 0
+level-1 pairing mismatches (must be 0): 0
+game-seeds with level 1 cleared: 60
+
+=== level 2 vs RESET ===
+mode       cleared  both fewer  more p(fewer)  median    geo score
+reset           58    58     0     0    1.000   1.000  1.000 0.359
+transfer        52    51    36    15    0.002   0.952  0.885 0.425
+surprise        57    56    29    27    0.447   0.996  0.934 0.484
+droponly        52    51    36    15    0.002   0.964  0.942 0.448
+selective       55    53    29    24    0.292   0.991  0.890 0.387
+
+=== per game: level 2 cleared (of 10) / median level-2 actions among cleared ===
+cd82:  reset 9/10 med 5047  trans 9/10 med 5432  surpr 7/10 med 4054  dropo 9/10 med 5729  selec 6/10 med 4839
+dc22:  reset 10/10 med 8071  trans 10/10 med 6479  surpr 10/10 med 7989  dropo 10/10 med 7923  selec 10/10 med 7939
+lf52:  reset 9/10 med 6239  trans 3/10 med 5492  surpr 10/10 med 6250  dropo 3/10 med 5472  selec 9/10 med 5714
+lp85:  reset 10/10 med 653  trans 10/10 med 631  surpr 10/10 med 669  dropo 10/10 med 631  selec 10/10 med 669
+tu93:  reset 10/10 med 45  trans 10/10 med 37  surpr 10/10 med 35  dropo 10/10 med 36  selec 10/10 med 36
+vc33:  reset 10/10 med 241  trans 10/10 med 283  surpr 10/10 med 302  dropo 10/10 med 283  selec 10/10 med 279
+
+=== C2: lp85 level-2 actions per seed (transfer vs selective) ===
+  transfer  [2351, 109, 547, 266, 440, 972, 930, 716, 177, 2153]
+  selective [2375, 125, 571, 319, 464, 992, 982, 768, 210, 2175]
+  median (selective - transfer): 24.0
+
+=== C4: surprise events on level 2 (selective) ===
+  cd82: median 2.0  [0, 7, 3, 3, 3, 0, 0, 1, 3, 1]
+  dc22: median 6.0  [6, 6, 6, 6, 6, 6, 4, 6, 6, 6]
+  lf52: median 2.5  [3, 3, 4, 2, 3, 4, 2, 2, 2, 2]
+  lp85: median 0.0  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  tu93: median 0.5  [0, 4, 0, 4, 0, 4, 4, 1, 0, 0]
+  vc33: median 0.0  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

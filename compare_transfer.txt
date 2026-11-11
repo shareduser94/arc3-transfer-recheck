@@ -1,0 +1,73 @@
+=== overall ===
+explorer  mean score 0.0950 per seed [0.0658, 0.0195, 0.1997] games>=1 lvl [10, 10, 11] >=2 [3, 3, 2] >=3 [0, 0, 0] total levels [13, 13, 13]
+reset     mean score 0.2714 per seed [0.2049, 0.2451, 0.3642] games>=1 lvl [16, 15, 15] >=2 [6, 6, 6] >=3 [2, 2, 1] total levels [25, 23, 22]
+transfer  mean score 0.2747 per seed [0.1718, 0.2877, 0.3648] games>=1 lvl [16, 15, 15] >=2 [5, 6, 5] >=3 [1, 3, 1] total levels [22, 24, 21]
+
+=== A3: paired level-2 actions (only game-seeds where level 1 was cleared) ===
+pairs 46  level-1 mismatches (must be 0): 0
+  ar25 s0  transfer  2034+  reset  2034+  levels T1 R1
+  cd82 s0  transfer  5432  reset  5513  levels T2 R2
+  dc22 s0  transfer  6247  reset  6891  levels T2 R2
+  ft09 s0  transfer  9311+  reset  9311+  levels T1 R1
+  g50t s0  transfer  9049+  reset  9049+  levels T1 R1
+  lf52 s0  transfer  9867+  reset  6425  levels T1 R2
+  lp85 s0  transfer  2351  reset  2365  levels T3 R3
+  ls20 s0  transfer  9627+  reset  9627+  levels T1 R1
+  m0r0 s0  transfer  9792+  reset  9792+  levels T1 R1
+  r11l s0  transfer  9890+  reset  9890+  levels T1 R1
+  s5i5 s0  transfer  9074+  reset  9074+  levels T1 R1
+  sp80 s0  transfer  9014+  reset  9014+  levels T1 R1
+  su15 s0  transfer  9605+  reset  9605+  levels T1 R1
+  tn36 s0  transfer  9951+  reset  9951+  levels T1 R1
+  tu93 s0  transfer    37  reset    42  levels T2 R4
+  vc33 s0  transfer   281  reset   222  levels T2 R2
+  cd82 s1  transfer  3649  reset  1878  levels T2 R2
+  dc22 s1  transfer  5983  reset  8103  levels T2 R2
+  ft09 s1  transfer  9647+  reset  9647+  levels T1 R1
+  g50t s1  transfer  9093+  reset  9093+  levels T1 R1
+  lf52 s1  transfer  8058  reset  6087  levels T2 R2
+  lp85 s1  transfer   109  reset   123  levels T3 R3
+  ls20 s1  transfer  9579+  reset  9579+  levels T1 R1
+  m0r0 s1  transfer  8601+  reset  8601+  levels T1 R1
+  r11l s1  transfer  9927+  reset  9927+  levels T1 R1
+  s5i5 s1  transfer  8957+  reset  8957+  levels T1 R1
+  sp80 s1  transfer  9052+  reset  9052+  levels T1 R1
+  su15 s1  transfer  9759+  reset  9759+  levels T1 R1
+  tn36 s1  transfer  9968+  reset  9968+  levels T1 R1
+  tu93 s1  transfer    32  reset   130  levels T3 R3
+  vc33 s1  transfer   276  reset   241  levels T3 R2
+  cd82 s2  transfer   559  reset  6050  levels T2 R2
+  dc22 s2  transfer  6495  reset  8243  levels T2 R2
+  ft09 s2  transfer  9264+  reset  9264+  levels T1 R1
+  g50t s2  transfer  9375+  reset  9375+  levels T1 R1
+  lf52 s2  transfer  9882+  reset  5846  levels T1 R2
+  lp85 s2  transfer   547  reset   561  levels T3 R3
+  ls20 s2  transfer  9583+  reset  9583+  levels T1 R1
+  m0r0 s2  transfer  6611+  reset  6611+  levels T1 R1
+  r11l s2  transfer  9996+  reset  9996+  levels T1 R1
+  s5i5 s2  transfer  9365+  reset  9365+  levels T1 R1
+  sp80 s2  transfer  9058+  reset  9058+  levels T1 R1
+  su15 s2  transfer  9626+  reset  9626+  levels T1 R1
+  tn36 s2  transfer  9956+  reset  9956+  levels T1 R1
+  tu93 s2  transfer    37  reset    40  levels T2 R2
+  vc33 s2  transfer   179  reset   199  levels T2 R2
+both cleared level 2: 16
+  median level-2 actions transfer 553.0 reset 1219.5
+  transfer fewer on 12, more on 4, equal 0
+level 2 cleared: transfer 16  reset 18
+median incl. censored (+ = lower bound): transfer 9055.0 reset 9031.5
+A5 negative-transfer cases: [('lf52', 0), ('cd82', 1), ('lf52', 1), ('lf52', 2)]
+total levels on these pairs: transfer 67 reset 70
+
+=== A1: new states per action at the last level reached (mean over seeds) ===
+  cd82 explorer 0.67  rule(reset) 0.12  HALVED  mask [((63,), ())]
+  cn04 explorer 0.75  rule(reset) 0.45    mask [((), ())]
+  ka59 explorer 0.54  rule(reset) 0.69    mask [((), ())]
+  r11l explorer 0.84  rule(reset) 0.34  HALVED  mask [((), (0,))]
+  re86 explorer 0.95  rule(reset) 0.49    mask [((63,), ()), ((63,), (21, 30, 36))]
+  sp80 explorer 0.76  rule(reset) 0.42    mask [((63,), ())]
+  tn36 explorer 0.93  rule(reset) 0.29  HALVED  mask [((1,), ())]
+  tr87 explorer 0.96  rule(reset) 0.86    mask [((), ())]
+  vc33 explorer 0.54  rule(reset) 0.12  HALVED  mask [((0,), ())]
+  wa30 explorer 0.78  rule(reset) 0.70    mask [((), ())]
+halved on 4/10
