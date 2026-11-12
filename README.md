@@ -1,7 +1,8 @@
 # Transfer and Re-checking of Learned Rules Across Levels in ARC-AGI-3
 
-Code, results and prediction record for the paper in [`paper/`](paper/)
-([PDF](paper/paper.pdf) · [LaTeX](paper/paper.tex) · [Word](paper/paper.docx)).
+Code and prediction record for the paper. The paper itself (PDF, LaTeX and Word) is at
+[https://github.com/shareduser94/paper](https://github.com/shareduser94/paper); the raw results are at [https://github.com/shareduser94/results](https://github.com/shareduser94/results) and the batch-run logs at
+[https://github.com/shareduser94/logs](https://github.com/shareduser94/logs).
 
 An agent that learns a game's rules while playing must decide, at each new level, how far to
 trust what it learned on the last one. We study that decision on the 25 public ARC-AGI-3 games
@@ -69,26 +70,37 @@ git clone https://github.com/dolphin-in-a-coma/arc-agi-3-just-explore rudakov
 | Paired comparisons | `compare_*.py` (outputs are the matching `compare_*.txt`) |
 
 Results are written to `results/` as JSON (`{hyb_}{mode}_s{seed}{tag}.json`). All result files used
-in the paper are included, so every `compare_*.py` can be re-run without re-playing the games.
+in the paper are published at [https://github.com/shareduser94/results](https://github.com/shareduser94/results). Clone them into `results/` to re-run every
+`compare_*.py` without re-playing the games:
+
+```bash
+git clone https://github.com/shareduser94/results results
+```
 
 ## Repository layout
 
 ```
 *.py              agents, generator, runners, analysis scripts
-results/          raw per-run JSON results (all runs in the paper)
 compare_*.txt     paired-comparison outputs quoted in the paper
-logs/             console logs of the batch runs
 predictions.md    dated predictions and outcomes, step by step
-paper/            paper (LaTeX source, PDF, Word), figure script and bibliography
+results/          (not included) raw per-run JSON results; see the results repository
 ```
+
+Hosted in separate repositories:
+
+- Paper (LaTeX source, PDF, Word, figure script, bibliography): https://github.com/shareduser94/paper
+- Results (raw per-run JSON for all runs in the paper): https://github.com/shareduser94/results
+- Logs (console logs of the batch runs): https://github.com/shareduser94/logs
 
 ## Paper
 
-- `paper/paper.tex` + `references.bib` + `figure1.pdf` — build with
+The paper is at [https://github.com/shareduser94/paper](https://github.com/shareduser94/paper). It contains:
+
+- `paper.tex` + `references.bib` + `figure1.pdf` — build with
   `pdflatex paper && bibtex paper && pdflatex paper && pdflatex paper`.
-- `paper/paper.docx` — Word version generated from the LaTeX source (`build_docx.sh`, needs pandoc).
-- `paper/paper_claude-doc.docx` — export of the original working draft.
-- `paper/make_figure.py` — regenerates Figure 1.
+- `paper.docx` — Word version generated from the LaTeX source (`build_docx.sh`, needs pandoc).
+- `paper_claude-doc.docx` — export of the original working draft.
+- `make_figure.py` — regenerates Figure 1.
 
 ## Citation
 
