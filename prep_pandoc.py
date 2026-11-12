@@ -1,0 +1,11 @@
+import re
+t=open('paper.tex').read()
+t=t.replace(r'\includegraphics[width=0.85\textwidth]{figure1}',r'\includegraphics[width=6in]{figure1.png}')
+t=re.sub(r'\\paragraph\{([^}]*)\}',r'\\textbf{\1}',t)
+t=re.sub(r'\\shortstack\[r\]\{([^}]*)\\\\([^}]*)\}',r'\1 \2',t)
+t=t.replace(r'\section{Prediction record}',r'\section*{Appendix A. Prediction record}')
+t=t.replace(r'\section{Reproducibility}',r'\section*{Appendix B. Reproducibility}')
+t=t.replace(r'Appendix~\ref{app:predictions}','Appendix A').replace(r'\appendix','')
+for a,b in [(r'\textsc{stable}','STABLE'),(r'\textsc{promoted\_half}',r'PROMOTED\_HALF'),(r'\textsc{promoted\_inert}',r'PROMOTED\_INERT'),(r'\textsc{new}','NEW')]: t=t.replace(a,b)
+t=t.replace('Rule agent, & Reset','Rule agent, seeds 10--19 & Reset').replace(r'\quad seeds 10--19 & Transfer',' & Transfer')
+open('paper_pandoc.tex','w').write(t)
